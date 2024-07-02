@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+
+    <title>Assignment 4</title>
+</head>
+
+<body>
+    <header></header>
+    <nav></nav>
+
+    <main></main>
+
+    <form method="get" target="_blank" action="./action.html">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" placeholder="Enter your First name" autofocus required/>
+            <br>
+            <br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" placeholder="Enter your Last name" />
+            <br>
+            <br>
+
+            <label for="age">Age</label>
+            <input type="number" name="age" placeholder="Enter your Age" 
+            maxlength="3"
+            minlength="1"
+            />
+            <br>
+            <br>
+
+            <label>Select gender</label>
+            <input type="radio" value="male" name="gender" />
+            <label>Male</label>
+            <input type="radio" value="female" name="gender" />
+            <label>Female</label>
+            <br>
+            <br>
+
+            <label for="birth">Select your Birthday</label>
+            <input type="date" name="date" />
+            <br>
+            <br>
+
+            <label for="idcard">Attach your ID card </label>
+            <input type="file" name="idcard" multiple />
+            <br>
+            <br>
+
+            <label for="occupation">Select your occupation</label>
+            <select name="occupation">
+                <option>Student</option>
+                <option>Private Sector</option>
+                <option>Public Sector</option>
+            </select>
+            <br>
+            <br>
+            <textarea rows="10" cols="40">
+            Enter about yourself
+        </textarea>
+            <br>
+            <input type="checkbox" name="t&c" />
+            <label for="t&c">I agree to all Terms and Conditions.</label>
+            <br>
+            <br>
+
+            <button type="submit">Submit</button>
+            <input type="reset">
+
+        </fieldset>
+    </form>
+    <br/>
+    <br/>
+    <form>
+        <fieldset>
+            <legend>Login</legend>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Enter your Email" />
+            <label for="pwd">Password</label>
+            <input type="password" name="pwd" placeholder="Enter your password" />
+            <br>
+            <br>
+
+            <button type="submit">login</button>
+            <input type="reset">
+
+        </fieldset>
+    </form>
+
+    <section></section>
+
+    <footer></footer>
+
+
+
+</body>
+
+</html>

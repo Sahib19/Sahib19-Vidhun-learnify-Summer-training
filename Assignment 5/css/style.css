@@ -1,0 +1,28 @@
+.div1, .div2, .div3 {
+    width: 400px;
+    height: 200px;
+    background-color: teal;
+    background-image: url("../image/Dodge\ Wallpaper\ for\ Phone\ Charger\ Challenger\ Durango.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+
+.div1 button, .div2 button, .div3 button {
+    position: absolute;
+    bottom: 40px; 
+    left: 150px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;    
+    border: none;
+    cursor: pointer;
+}
+
+#welcome{
+    font-size: 40px;
+    color: red;
+    text-align: center;
+    padding-top: 75px;
+}
