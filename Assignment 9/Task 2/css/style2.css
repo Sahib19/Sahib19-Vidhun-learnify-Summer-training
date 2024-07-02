@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    height: 670px;
+    justify-content: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+}
+
+.container>div {
+    height: 95%;
+    width: 16%;
+    border: 2px black solid;
+    margin: 7px;
+
+}
+
+.container img {
+    width:100%;
+    padding-left: 45px;
+    height: 40%;
+}
+
+.container p {
+    width: 100%;
+    font-size: 20px;
+}
+
+#rupee {
+    padding-top: 60px;
+    padding-left: 75px;
+    font-weight: bold;
+}
+
+.container span {
+    width: 100%;
+    padding-left: 25px;
+}
+
+
+.middle {
+    border-bottom: 2px dotted rgb(114, 112, 112);
+    border-top: 2px dotted rgb(114, 112, 112);
+}
+
+.middle div {
+    font-size: 19px;
+    display: inline-block;
+}
+
+.middle>.num {
+    color: white;
+    background-color: green;
+    border: 2px green solid;
+}
+
+.list {
+    margin-left: 10px;
+}
+
+
+/* li::marker{
+    color:;
+} */
+
+.list span {
+    padding-left: 2px;
+    font-weight: bold;
+}
+
+#buttonn {
+    font-size: 18px;
+    border: red 2px solid;
+    color: red;
+    background-color: white;
+    margin-top: 10px;
+    width: 97%;
+    height: 35px;
+}
+
+/* Responsive part */
+@media screen and (max-width: 900px) {
+.container >div {
+    width: 48%;
+}
+}
+
+
+@media screen and (max-width: 450px) {
+    .container >div {
+        width: 98%;
+    }
+}
